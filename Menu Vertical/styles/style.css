@@ -1,0 +1,28 @@
+.menu-vertical{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.menu-vertical li{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    width: 300px;
+    background-color: rgb(203, 201, 201);
+    border: 1px solid#ddd;
+
+
+}
+
+.menu-vertical a{
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 6px;
+}
