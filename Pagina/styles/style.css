@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 249, 241);
+}
+
+.caja{
+    background-color: rgb(222, 220, 220);
+    padding:  10px ;
+    margin: 200px;
+    width: 400px;
+}
+
+.caja h1{
+    padding: 10px;
+}
+
