@@ -1,0 +1,26 @@
+body{
+    background: black;
+    display: flex;  
+    justify-content: center;
+    align-items:center ;
+    padding: 20px;
+    
+
+}
+
+.galeria{
+/*para definirle el ancho al contenedor*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    gap: 15px;
+}
+
+.galeria img{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+   
+}
