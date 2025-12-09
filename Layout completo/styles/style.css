@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e0e0e0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background: salmon;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* Navegación */
+nav {
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 60px;
+    align-items: center;
+}
+
+.menu-left, .menu-right {
+    display: flex;
+}
+
+nav span {
+    color: white;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+/* Aside - 30% */
+aside {
+    width: 30%;
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+aside h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Contenido - 70% */
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+/* Artículos */
+article {
+    margin-bottom: 40px;
+}
+
+article h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Imágenes */
+.image, .wide-image, .small-image {
+    background: #e9ecef;
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border: 1px solid #ced4da;
+}
+
+.image {
+    height: 400px;
+    width: 100%;
+}
+
+.wide-image {
+    height: 200px;
+    width: 100%;
+}
+
+.small-image {
+    height: 200px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: auto;
+}
